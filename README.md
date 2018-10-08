@@ -1,5 +1,9 @@
 # email-testtools
 
+This repo provides tools for testing messaging systems.
+
+## csvMsgGen
+
 This program provides an extensible framework for testing messaging systems. The framework is made up of 3 elements:
 
 1. A test case generator that generates messages based on templates and CSV data files.
