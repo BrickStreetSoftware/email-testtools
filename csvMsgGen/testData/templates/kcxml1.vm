@@ -1,0 +1,33 @@
+## velocity template to generate a kcmxl message
+<?xml version="1.0" encoding="UTF-8"?>
+<kanaRoot>
+    <EventRequest Id="12345" CompanyName="Default">
+        <Customer E-mailAddress="connect@kana.com" BirthDate="111">
+            <CustomerAttribute Name="First Name">John</CustomerAttribute>
+            <CustomerAttribute Name="Last Name">Smith</CustomerAttribute>
+            <CustomerPreference Name="Favorite River">
+                <CustomerPreferenceValue>Amazon</CustomerPreferenceValue>
+                <CustomerPreferenceValue>Yangtze</CustomerPreferenceValue>
+            </CustomerPreference>
+        </Customer>
+        <Event CampaignName="EToy Event">
+            <EventAttribute Name="Product">Dell Computer</EventAttribute>
+            <EventAttribute Name="Price">300</EventAttribute> 
+            <EventAttribute Name="DateOfPurchase">802390</EventAttribute>
+            <ExternalXML>
+                <ORDER NO="1" >
+                    <SHIPPING TYPE="UPGRADE" CARRIER="FEDEX" TRACKNUMBER="8201280912"> 
+                        <DATE DAY="15" MONTH="05" YEAR="2000" /> 
+                    </SHIPPING>
+                    <ITEMLIST>
+                        <ITEM NUMBER="1" QTY="2" PRODUCTDESC="TT pink" STATUS="CA" />
+                        <ITEM NUMBER="2" QTY="4" PRODUCTDESC="TT blue" STATUS="NONFINAL" />
+                        <ITEM NUMBER="3" QTY="1" PRODUCTDESC="GI Joe" STATUS="SH" />
+                        <ITEM NUMBER="4" QTY="1" PRODUCTDESC="B Baby" STATUS="CA" />
+                        <ITEM NUMBER="5" QTY="5" PRODUCTDESC="Bi Baby" STATUS="NONFINAL" />
+                    </ITEMLIST>
+                </ORDER>
+            </ExternalXML>
+        </Event>
+    </EventRequest>
+</kanaRoot>

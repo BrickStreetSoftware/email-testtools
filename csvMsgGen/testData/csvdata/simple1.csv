@@ -1,0 +1,12 @@
+TestSeries,TestCase,Order,Template,campname,firstname,lastname,email,name1,val1,name2,val2,name3,val3
+A,A1,3,simple1.vm,camp001,George,Washington,gw@example.com,homestate,VA,favcolor,red,,
+A,A2,3,simple1.vm,camp002,Sam,Adams,sam@example.com,homestate,MA,favcolor,green,,
+A,A3,3,simple1.vm,camp003,Thos,Jefferson,tj@example.com,homestate,VA,favcolor,blue,favwine,bordeaux
+,,,,,,,,,,,,,
+B,B1,1,simple1.vm,camp001,George,Washington,gw@example.com,homestate,VA,favcolor,red,,
+B,B2,2,simple1.vm,camp002,Sam,Adams,sam@example.com,homestate,MA,favcolor,green,,
+B,B3,3,simple1.vm,camp003,Thos,Jefferson,tj@example.com,homestate,VA,favcolor,blue,favwine,bordeaux
+,,,,,,,,,,,,,
+D,D1,1,simple1.vm,camp001,George,Washington,gw@example.com,homestate,VA,favcolor,red,,
+D,D2,2,simple1.vm,camp002,Sam,Adams,sam@example.com,homestate,MA,favcolor,green,,
+D,D3,3,simple1.vm,camp003,Thos,Jefferson,tj@example.com,homestate,VA,favcolor,blue,favwine,bordeaux
