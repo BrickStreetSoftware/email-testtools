@@ -1,0 +1,31 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+ 
+<suite name="RobocustTestSuite" verbose="1" >
+
+	<parameter name="robocustproperties" value="robocust.properties"/>
+	
+	<test name="send-simple">
+        <parameter name="smtpServer" value="localhost" />
+        <parameter name="smtpPort" value="10025" />
+        <parameter name="repeat" value="100" />
+        <parameter name="threads" value="4" />
+        <parameter name="starttls" value="false" />
+
+		<classes>
+			<class name="brickst.robocust.test.SimpleMessageTest" />
+		</classes>
+	</test>
+	
+	<test name="send-simple-starttls">
+        <parameter name="smtpServer" value="localhost" />
+        <parameter name="smtpPort" value="25" />
+        <parameter name="repeat" value="100" />
+        <parameter name="threads" value="4" />
+        <parameter name="starttls" value="true" />
+
+		<classes>
+			<class name="brickst.robocust.test.SimpleMessageTest" />
+		</classes>
+	</test>
+
+</suite>
